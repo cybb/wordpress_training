@@ -1,0 +1,116 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+       .pic span {
+            height: 162px;
+            padding: 18% 0 0;
+         }
+    
+        .text2 {
+            font-size: 10px
+        }
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .for-forms h4{
+        font-size:12px;
+    }
+    
+    .pic span {
+        height: 260px;
+        padding: 24% 0 0;
+         }
+    
+    iframe {
+        height:250px;
+    }
+    
+    .videos li {
+        margin: 5px -15px;
+    }
+    
+    .subscribe {
+        text-align: center;
+        padding:0;
+        }
+    
+    .subscribe form {
+        display:inline-block;
+        margin: 0 0 15px;
+     }
+    
+    .footer_end {
+        text-align:center;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+      .logo {
+        background-position: center;
+    }
+    
+    .pic span {
+        display:none;
+         }
+    
+    .pic img {
+        max-width: 350px;
+    }
+    
+    .authors .text {
+        font-size: 1.3em;
+        
+    }
+    
+    .videos {
+        display:none;
+    }
+    
+    .social {text-align: center;
+        padding-bottom: 30px
+    }
+
+    .footer_end {
+        font-size: 10px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    
+    .for-forms h3 {
+        text-align:center;        
+    }
+    
+    .for-forms h3 span {
+        padding:5px 10px;
+        font-size: 14px;
+        display:inline-block;
+        width:auto;
+    }
+    
+    .btn {
+        font-size: 14px;
+        padding:18px;
+    }
+    
+    .subscribe form{
+        padding:0;
+        }
+    
+    .subscribe input {
+        margin:7.5px 0;
+        width: 250px;
+        text-align:center;
+        display:block;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
